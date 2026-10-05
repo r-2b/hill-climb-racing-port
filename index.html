@@ -2,18 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport"
-          content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+          content="width=device-width,
+                   initial-scale=1,
+                   viewport-fit=cover">
 
     <title>Hill Climb Racing</title>
 
-    <!-- PWA -->
-    <link rel="manifest" href="manifest.json">
-
-    <!-- iPhone/iPad Home Screen icon -->
-    <link rel="apple-touch-icon" href="icon-180.png">
+    <!-- iPhone Home Screen icon -->
+    <link rel="apple-touch-icon"
+          href="https://store-images.s-microsoft.com/image/apps.22936.9007199266379485.50ad062c-605c-42c1-9802-2951c39ab53c.fc4b5148-3757-4a99-8a2c-e20393c9abf6">
 
     <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Hill Climb Racing">
     <meta name="theme-color" content="#000000">
 
@@ -28,17 +30,21 @@
         }
 
         iframe {
+            position: fixed;
+            inset: 0;
             width: 100%;
             height: 100%;
-            border: 0;
+            border: none;
         }
     </style>
 </head>
 
 <body>
-    <iframe
-        src="https://truffled.lol/games/hcr/index.html"
-        allowfullscreen>
-    </iframe>
+
+<iframe
+    src="https://truffled.lol/games/hcr/index.html"
+    allowfullscreen>
+</iframe>
+
 </body>
 </html>
